@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+.top ul{
+    float: left;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.top ul li{
+    display: inline;
+    padding-left: 20px;
+}
+.top ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+}
+.top ul li a:hover{
+    color: green;
+}
+img {
+    max-width: 100%;
+    max-height:100%;
+  }
+.image img{
+    position: relative;
+    right: 400px;
+    padding-top: 27px;
+}
+.main12{
+    background-color: #1e3932;
+}
+.desc h1{
+    text-align: right;
+    position: relative;
+    right: 180px;
+    bottom: 400px;
+    color: white;
+    font-size: 50px;
+}
+.desc h2{
+    text-align: right;
+    position: relative;
+    right: 120px;
+    bottom: 350px;
+    color: white;
+}
+.desc h3{
+    float: right;
+    position: relative;
+    bottom: 250px;
+    right: 300px;
+}
+.desc h3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.desc h3 a:hover{
+    background-color: rgb(125, 123, 123);
+}
+.left{
+   float: right;
+   position: relative;
+   top: 35px;
+   right: 40px;
+}
+.left ul li{
+    display: inline;
+    padding: 10px;
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px; 
+}
+
+.left ul li a:hover{
+     color: green;
+}
+.main13{
+    background-color: #d50032;
+    position: relative;
+    bottom: 100px;
+}
+
+.main14{
+    background-color: #00b388;
+    position: relative;
+    bottom: 160px;
+}
+.desc2 h1{
+    text-align: right;
+    position: relative;
+    right: 80px;
+    bottom: 550px;
+    color: white;
+    font-size: 50px;
+}
+.desc2 h2{
+    text-align: right;
+    position: relative;
+    right:110px;
+    bottom: 450px;
+    color: white;
+}
+.desc2 h3{
+    float: right;
+    position: relative;
+    bottom: 350px;
+    right: 280px;
+}
+.desc2 h3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.desc2 h3 a:hover{
+    background-color: rgb(125, 123, 123);
+}
+.desc3 h1{
+    text-align: right;
+    position: relative;
+    right: 210px;
+    bottom: 600px;
+    color:#1e3932;
+    font-size: 50px;
+}
+.desc3 h2{
+    text-align: right;
+    position: relative;
+    right:110px;
+    bottom: 500px;
+    color: white;
+}
+.desc3 h3{
+    float: right;
+    position: relative;
+    bottom: 400px;
+    right: 280px;
+}
+.desc3 h3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.desc3 h3 a:hover{
+    background-color: rgb(125, 123, 123);
+}
+.main15{
+    background-color: #006241;
+    position: relative;
+    bottom: 220px;
+}
+.desc4 h1{
+    text-align: right;
+    position: relative;
+    right: 160px;
+    bottom: 530px;
+    color:white;
+    font-size: 50px;
+}
+.desc4 h2{
+    text-align: right;
+    position: relative;
+    right:110px;
+    bottom: 500px;
+    color: white;
+}
+.desc4 h3{
+    float: right;
+    position: relative;
+    bottom: 430px;
+    right: 280px;
+}
+.desc4 h3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.desc4 h3 a:hover{
+    background-color: rgb(125, 123, 123);
+}
+.main16{
+    background-color: #1e3932;
+    position: relative;
+    bottom: 300px;
+}
+.desc5 h1{
+    text-align: right;
+    position: relative;
+    right: 70px;
+    bottom: 580px;
+    color:white;
+    font-size: 35px;
+}
+.desc5 h2{
+    text-align: right;
+    position: relative;
+    right:90px;
+    bottom: 530px;
+    color: white;
+}
+.desc5 h3{
+    float: right;
+    position: relative;
+    bottom: 470px;
+    right: 280px;
+}
+.desc5 h3 a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    transition: 0.5s;
+}
+.desc5 h3 a:hover{
+    background-color: rgb(125, 123, 123);
+}
+.container
+{
+    max-width: 1170px;
+    margin: auto;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul
+{
+list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: #000000;
+}
+.footer
+{
+    background-color: #0001;
+    box-sizing: border-box;
+    padding: 80px 0;
+    height: 40%;
+}
+.footer-col
+{
+    width: 16%;
+    padding: 0 15px;
+}
+.footer-col h4
+{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitilize;
+    margin-bottom:30px;
+    position: relative;
+}
+.footer-col::before
+{
+    content:" ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e915;
+}
+.last p{
+    text-align:center;
+    justify-content: center;
+    position: relative;
+    bottom: 350px;
+    padding: 50px;
+}
+.last p a{
+    color: black;
+}
